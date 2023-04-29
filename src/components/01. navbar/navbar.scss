@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.align{
+    vertical-align: middle;
+}
+
+.flex{
+    display: flex;
+}
+.card-text{
+    background-color: none;
+}
+
+.bgdark{
+    background-color: #21262c;
+    color: #0f0;
+}
+
+.card-link1{
+    color: #fff;
+    text-decoration: none;
+}
+.card-link1:hover{
+    color: #fff;
+    text-decoration: underline #fff;
+transition-duration: 5s;
+}
+.card-link2{
+    color: #00f;
+    text-decoration: none;
+}
+.card-link2:hover{
+    color: #00f;
+    text-decoration: underline #00f;
+    transition-duration: 5s;
+}
